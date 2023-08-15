@@ -1,0 +1,24 @@
+{
+  "name": "Reunion",
+  "version": "1.0.0",
+  "description": "This is the assignment provided by Reunion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Tamal Naskar",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.20.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.3",
+    "nodemon": "^3.0.1"
+  }
+}
